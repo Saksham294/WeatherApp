@@ -1,0 +1,103 @@
+.background {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 35vw;
+    width: 35vw;
+}
+
+@media screen and (max-width: 870px) {
+    .background {
+        height: 50vw;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .background {
+        height: 60vw;
+        width: 60vw;
+    }
+}
+
+.card {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 32vw;
+    padding-bottom: 2vw;
+}
+
+.currentTemperature > h2 {
+    font-size: 6vw;
+    font-family: 'Lato';
+}
+
+.subBackgroundContainer {
+    position: relative;
+}
+
+.subBackgroundContainer > img {
+    height: 24vw;
+    width: 35vw;
+    border-radius: 20px 20px 0px 0px;
+    z-index: -1;
+}
+
+.subBackgroundTextContainer {
+    background: -webkit-linear-gradient(#ffffff, #e7e7e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+}
+
+.textContainer > h6,
+.subBackgroundTextContainer > h6 {
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 870px) {
+    .card {
+        margin-top: 2vw;
+        margin-left: 25vw;
+    }
+
+    .currentTemperature > h2 {
+        font-size: 8vw;
+    }
+
+    .subBackgroundContainer > img {
+        height: 35vw;
+        width: 50vw;
+    }
+
+    .textContainer > h6,
+    .subBackgroundTextContainer > h6 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card {
+        margin-left: 20vw;
+    }
+
+    .subBackgroundContainer > img {
+        height: 40vw;
+        width: 60vw;
+    }
+
+    .textContainer > h6,
+    .subBackgroundTextContainer > h6 {
+        font-size: 3vw;
+    }
+}
+
+.currentTemperature>h2{
+    font-size: 6vw;
+    font-family: 'Lato';
+}

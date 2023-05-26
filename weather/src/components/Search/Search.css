@@ -1,0 +1,83 @@
+.error {
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        font-size: 3vw;
+    }
+
+    @media screen and (max-width: 540px) {
+        font-size: 4vw;
+
+
+    }
+}
+
+.main>h2 {
+    @media screen and (max-width: 768px) {
+        font-size: 8vw;
+    }
+
+    @media screen and (max-width: 540px) {
+        font-size: 8vw;
+
+
+    }
+}
+
+.searchBar {
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    text-align: center;
+}
+
+.searchBar fieldset {
+    width: 100%;
+    padding-left: 1vw;
+    border-radius: 30px;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
+
+    @media screen and (max-width: 540px) {
+        width: 90%;
+
+    }
+
+    @media screen and (max-width: 346px) {
+        padding-left: 0vw;
+        width: 80%;
+
+    }
+}
+
+.searchBar>button {
+    margin-top: 0.4vw;
+    padding: 0.7vw 1vw 0.7vw 1vw;
+    ;
+    margin-left: 2vw;
+    border-radius: 10%;
+
+    @media screen and (max-width: 768px) {
+        margin-left: 1vw;
+        margin-top: 1.2vw;
+        padding: 1vw 2vw 1vw 2vw;
+    }
+
+    @media screen and (max-width: 540px) {
+        margin-left: 1vw;
+        margin-top: 1.6vw;
+        padding: 1vw 2vw 1vw 2vw;
+    }
+
+    @media screen and (max-width: 346px) {
+        margin-left: 1vw;
+        margin-top: 3vw;
+        padding: 1vw 2vw 1vw 2vw;
+
+
+    }
+
+}
