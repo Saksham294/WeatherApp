@@ -29,7 +29,6 @@ const Search = () => {
         }
     }
 
-
     return (
         <div className='main'>
             <Typography className='heading' sx={{ textAlign: "center", paddingTop: "2.5vw" }} variant='h2'>Weather App</Typography>
